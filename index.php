@@ -1,5 +1,5 @@
 <?php
-$pdfs = glob('*.pdf');
+$pdfs = glob('librerias/*.pdf');
 sort($pdfs, SORT_NATURAL | SORT_FLAG_CASE);
 $total = count($pdfs);
 
@@ -8,6 +8,10 @@ function formatTitle($filename) {
     $name = str_replace(['-', '_'], ' ', $name);
     $name = ucwords($name);
     return $name;
+}
+
+function getFilename($filepath) {
+    return basename($filepath);
 }
 ?>
 <!DOCTYPE html>
@@ -57,15 +61,15 @@ function formatTitle($filename) {
 
         <div class="grid" id="grid">
             <?php foreach ($pdfs as $index => $pdf): ?>
-                <article class="card" data-title="<?= htmlspecialchars(formatTitle($pdf)) ?>" data-file="<?= htmlspecialchars($pdf) ?>" style="animation-delay: <?= ($index * 0.02) ?>s">
-                    <button class="fav-btn" data-file="<?= htmlspecialchars($pdf) ?>" title="Marcar como favorito">
+                <article class="card" data-title="<?= htmlspecialchars(formatTitle($pdf)) ?>" data-file="<?= htmlspecialchars(getFilename($pdf)) ?>" style="animation-delay: <?= ($index * 0.02) ?>s">
+                    <button class="fav-btn" data-file="<?= htmlspecialchars(getFilename($pdf)) ?>" title="Marcar como favorito">
                         <i class="far fa-star"></i>
                     </button>
                     <div class="card-icon">
                         <i class="fas fa-file-pdf"></i>
                     </div>
                     <h2 class="card-title"><?= htmlspecialchars(formatTitle($pdf)) ?></h2>
-                    <span class="card-subtitle"><?= htmlspecialchars($pdf) ?></span>
+                    <span class="card-subtitle"><?= htmlspecialchars(getFilename($pdf)) ?></span>
                     <div class="card-actions">
                         <a href="<?= htmlspecialchars($pdf) ?>" target="_blank" class="btn btn-primary">
                             <i class="fas fa-eye"></i> Ver PDF
