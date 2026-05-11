@@ -29,6 +29,9 @@ $nav_sections = [
     'n8n' => [
         ['href' => $base_url . '/docs/n8n/index.php', 'label' => 'Guía n8n', 'icon' => 'fas fa-project-diagram'],
     ],
+    'SQL Server' => [
+        ['href' => $base_url . '/docs/sqlserver/index.php', 'label' => 'Guía SQL Server', 'icon' => 'fas fa-database'],
+    ],
 ];
 ?>
 <!DOCTYPE html>

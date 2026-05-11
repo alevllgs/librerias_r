@@ -144,6 +144,30 @@ require_once __DIR__ . '/includes/header.php';
                 <i class="fas fa-arrow-right"></i> Acceder
             </div>
         </a>
+
+        <!-- SQL Server -->
+        <a href="<?= $base_url ?>/docs/sqlserver/index.php" class="platform-card sqlserver-card fade-in">
+            <div class="platform-icon sqlserver-icon">
+                <i class="fas fa-database"></i>
+            </div>
+            <div class="platform-name">SQL Server</div>
+            <div class="platform-desc">
+                Motor de base de datos relacional de Microsoft. Instalación, consultas, vistas, triggers y automatización en Windows.
+            </div>
+            <div class="platform-stats">
+                <div class="stat">
+                    <i class="fas fa-database stat-icon"></i>
+                    <span>T-SQL</span>
+                </div>
+                <div class="stat">
+                    <i class="fab fa-windows stat-icon"></i>
+                    <span>Windows</span>
+                </div>
+            </div>
+            <div class="platform-btn sqlserver-btn">
+                <i class="fas fa-arrow-right"></i> Acceder
+            </div>
+        </a>
     </div>
 </section>
 
@@ -203,6 +227,14 @@ require_once __DIR__ . '/includes/header.php';
                 <h3>Automatización</h3>
             </div>
             <div class="card-body">Workflows visuales con n8n</div>
+        </a>
+
+        <a href="<?= $base_url ?>/docs/sqlserver/index.php" class="card card-sqlserver">
+            <div class="card-head">
+                <span class="badge" style="background: var(--sqlserver-bg); color: var(--sqlserver-color);">SQL Server</span>
+                <h3>Bases de datos</h3>
+            </div>
+            <div class="card-body">T-SQL, consultas y automatización</div>
         </a>
 
         <a href="<?= $base_url ?>/docs/php/pages/composer.php" class="card card-php">

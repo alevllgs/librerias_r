@@ -63,8 +63,10 @@
     --ollama-bg:    rgba(16,185,129,0.15);
 --opencode-color: #f59e0b;
     --opencode-bg:  rgba(245,158,11,0.15);
-    --n8n-color:      #ea4b71;
-    --n8n-bg:         rgba(234,75,113,0.15);
+    --n8n-color:         #ea4b71;
+    --n8n-bg:            rgba(234,75,113,0.15);
+    --sqlserver-color:   #e04856;
+    --sqlserver-bg:      rgba(224,72,86,0.15);
 }
 
 html.light-mode {
@@ -114,8 +116,10 @@ html.light-mode {
     --ollama-bg:    rgba(5,150,105,0.08);
 --opencode-color: #d97706;
     --opencode-bg:  rgba(217,119,6,0.08);
-    --n8n-color:      #d6336c;
-    --n8n-bg:         rgba(214,51,108,0.08);
+    --n8n-color:         #d6336c;
+    --n8n-bg:            rgba(214,51,108,0.08);
+    --sqlserver-color:   #c4313f;
+    --sqlserver-bg:      rgba(196,49,63,0.08);
 }
 
 html {
@@ -1052,4 +1056,9 @@ th {
 
 .platform-card.n8n-card:hover { border-color: var(--n8n-color); }
 .platform-icon.n8n-icon { background: var(--n8n-bg); color: var(--n8n-color); }
+.platform-btn.n8n-btn { background: var(--n8n-bg); color: var(--n8n-color); }
 
+.card-sqlserver { border-left: 3px solid var(--sqlserver-color); }
+.platform-card.sqlserver-card:hover { border-color: var(--sqlserver-color); }
+.platform-icon.sqlserver-icon { background: var(--sqlserver-bg); color: var(--sqlserver-color); }
+.platform-btn.sqlserver-btn { background: var(--sqlserver-bg); color: var(--sqlserver-color); }
