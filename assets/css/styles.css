@@ -67,8 +67,10 @@
     --n8n-bg:            rgba(234,75,113,0.15);
     --sqlserver-color:   #e04856;
     --sqlserver-bg:      rgba(224,72,86,0.15);
-    --python-color:      #306998;
-    --python-bg:         rgba(48,105,152,0.15);
+    --python-color:      #ffd43b;
+    --python-bg:         rgba(255,212,59,0.15);
+    --gemini-color:      #6366f1;
+    --gemini-bg:         rgba(99,102,241,0.15);
 }
 
 html.light-mode {
@@ -122,8 +124,10 @@ html.light-mode {
     --n8n-bg:            rgba(214,51,108,0.08);
     --sqlserver-color:   #c4313f;
     --sqlserver-bg:      rgba(196,49,63,0.08);
-    --python-color:      #265578;
-    --python-bg:         rgba(38,85,120,0.08);
+    --python-color:      #e6a817;
+    --python-bg:         rgba(230,168,23,0.08);
+    --gemini-color:      #4f46e5;
+    --gemini-bg:         rgba(79,70,229,0.08);
 }
 
 html {
@@ -1071,3 +1075,8 @@ th {
 .platform-card.python-card:hover { border-color: var(--python-color); }
 .platform-icon.python-icon { background: var(--python-bg); color: var(--python-color); }
 .platform-btn.python-btn { background: var(--python-bg); color: var(--python-color); }
+
+.card-gemini { border-left: 3px solid var(--gemini-color); }
+.platform-card.gemini-card:hover { border-color: var(--gemini-color); }
+.platform-icon.gemini-icon { background: var(--gemini-bg); color: var(--gemini-color); }
+.platform-btn.gemini-btn { background: var(--gemini-bg); color: var(--gemini-color); }

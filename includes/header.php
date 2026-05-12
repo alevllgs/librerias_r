@@ -26,6 +26,9 @@ $nav_sections = [
     'n8n' => [
         ['href' => $base_url . '/docs/n8n/index.php', 'label' => 'Guía n8n', 'icon' => 'fas fa-project-diagram'],
     ],
+    'Gemini' => [
+        ['href' => $base_url . '/docs/gemini/index.php', 'label' => 'Guía Gemini', 'icon' => 'fas fa-wand-magic-sparkles'],
+    ],
     'PHP' => [
         ['href' => $base_url . '/docs/php/index.php', 'label' => 'Guía PHP/Laravel', 'icon' => 'fab fa-php'],
     ],

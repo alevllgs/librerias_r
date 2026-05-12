@@ -121,6 +121,30 @@ require_once __DIR__ . '/includes/header.php';
             </div>
         </a>
 
+        <!-- Gemini -->
+        <a href="<?= $base_url ?>/docs/gemini/index.php" class="platform-card gemini-card fade-in">
+            <div class="platform-icon gemini-icon">
+                <i class="fas fa-wand-magic-sparkles"></i>
+            </div>
+            <div class="platform-name">Gemini</div>
+            <div class="platform-desc">
+                Ecosistema de IA de Google. NotebookLM, AI Studio, Antigravity y herramientas de productividad potenciadas por IA.
+            </div>
+            <div class="platform-stats">
+                <div class="stat">
+                    <i class="fas fa-brain stat-icon"></i>
+                    <span>IA Generativa</span>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-cloud stat-icon"></i>
+                    <span>Google Cloud</span>
+                </div>
+            </div>
+            <div class="platform-btn gemini-btn">
+                <i class="fas fa-arrow-right"></i> Acceder
+            </div>
+        </a>
+
         <!-- PHP -->
         <a href="<?= $base_url ?>/docs/php/index.php" class="platform-card php-card fade-in">
             <div class="platform-icon php-icon">
@@ -235,6 +259,14 @@ require_once __DIR__ . '/includes/header.php';
                 <h3>Automatización</h3>
             </div>
             <div class="card-body">Workflows visuales con n8n</div>
+        </a>
+
+        <a href="<?= $base_url ?>/docs/gemini/index.php" class="card card-gemini">
+            <div class="card-head">
+                <span class="badge" style="background: var(--gemini-bg); color: var(--gemini-color);">Gemini</span>
+                <h3>IA de Google</h3>
+            </div>
+            <div class="card-body">NotebookLM, AI Studio, Antigravity</div>
         </a>
 
         <a href="<?= $base_url ?>/docs/php/pages/php-basico.php" class="card card-php">
