@@ -67,6 +67,8 @@
     --n8n-bg:            rgba(234,75,113,0.15);
     --sqlserver-color:   #e04856;
     --sqlserver-bg:      rgba(224,72,86,0.15);
+    --python-color:      #306998;
+    --python-bg:         rgba(48,105,152,0.15);
 }
 
 html.light-mode {
@@ -120,6 +122,8 @@ html.light-mode {
     --n8n-bg:            rgba(214,51,108,0.08);
     --sqlserver-color:   #c4313f;
     --sqlserver-bg:      rgba(196,49,63,0.08);
+    --python-color:      #265578;
+    --python-bg:         rgba(38,85,120,0.08);
 }
 
 html {
@@ -1062,3 +1066,8 @@ th {
 .platform-card.sqlserver-card:hover { border-color: var(--sqlserver-color); }
 .platform-icon.sqlserver-icon { background: var(--sqlserver-bg); color: var(--sqlserver-color); }
 .platform-btn.sqlserver-btn { background: var(--sqlserver-bg); color: var(--sqlserver-color); }
+
+.card-python { border-left: 3px solid var(--python-color); }
+.platform-card.python-card:hover { border-color: var(--python-color); }
+.platform-icon.python-icon { background: var(--python-bg); color: var(--python-color); }
+.platform-btn.python-btn { background: var(--python-bg); color: var(--python-color); }

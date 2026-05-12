@@ -17,20 +17,23 @@ $nav_sections = [
     'R' => [
         ['href' => $base_url . '/docs/r/index.php', 'label' => 'Librerías R', 'icon' => 'fab fa-r-project'],
     ],
-    'PHP' => [
-        ['href' => $base_url . '/docs/php/index.php', 'label' => 'Guía PHP/Laravel', 'icon' => 'fab fa-php'],
+    'Python' => [
+        ['href' => $base_url . '/docs/python/index.php', 'label' => 'Guía Python', 'icon' => 'fab fa-python'],
     ],
-    'Ollama' => [
-        ['href' => $base_url . '/docs/ollama/index.php', 'label' => 'Guía Ollama', 'icon' => 'fas fa-robot'],
-    ],
-'Opencode' => [
-        ['href' => $base_url . '/docs/opencode/index.php', 'label' => 'Guía Opencode', 'icon' => 'fas fa-terminal'],
+    'SQL Server' => [
+        ['href' => $base_url . '/docs/sqlserver/index.php', 'label' => 'Guía SQL Server', 'icon' => 'fas fa-database'],
     ],
     'n8n' => [
         ['href' => $base_url . '/docs/n8n/index.php', 'label' => 'Guía n8n', 'icon' => 'fas fa-project-diagram'],
     ],
-    'SQL Server' => [
-        ['href' => $base_url . '/docs/sqlserver/index.php', 'label' => 'Guía SQL Server', 'icon' => 'fas fa-database'],
+    'PHP' => [
+        ['href' => $base_url . '/docs/php/index.php', 'label' => 'Guía PHP/Laravel', 'icon' => 'fab fa-php'],
+    ],
+    'Opencode' => [
+        ['href' => $base_url . '/docs/opencode/index.php', 'label' => 'Guía Opencode', 'icon' => 'fas fa-terminal'],
+    ],
+    'Ollama' => [
+        ['href' => $base_url . '/docs/ollama/index.php', 'label' => 'Guía Ollama', 'icon' => 'fas fa-robot'],
     ],
 ];
 ?>
